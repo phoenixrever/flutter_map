@@ -141,7 +141,7 @@ abstract class MapController {
 
   Stream<MapEvent> get mapEventStream;
 
-  factory MapController() => MapControllerImpl();
+  // factory MapController() => MapControllerImpl();
 }
 
 typedef TapCallback = void Function(TapPosition tapPosition, LatLng point);
